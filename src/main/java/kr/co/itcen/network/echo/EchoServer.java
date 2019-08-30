@@ -18,9 +18,9 @@ private static final int PORT = 8000;
 			InetAddress inetAddress = InetAddress.getLocalHost();
 			String localHostAddress = inetAddress.getHostAddress();
 			InetSocketAddress inetSocketAddress = new InetSocketAddress(localHostAddress,PORT);
+			log("binding "+inetAddress.getHostAddress()+":"+PORT);
 			//2.bind
 			serverSocket.bind(inetSocketAddress);
-			log("binding "+inetAddress.getHostAddress()+":"+PORT);
 			//3.accept
 			while(true) {
 				Socket socket=serverSocket.accept();
