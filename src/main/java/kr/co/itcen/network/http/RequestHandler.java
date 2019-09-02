@@ -1,4 +1,4 @@
-package http;
+package kr.co.itcen.network.http;
 
 import java.io.BufferedReader;
 import java.io.File;

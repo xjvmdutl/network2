@@ -1,4 +1,5 @@
-package http;
+package kr.co.itcen.network.http;
+
 
 import java.io.IOException;
 import java.net.InetAddress;
